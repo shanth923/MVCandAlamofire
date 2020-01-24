@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3171590C23D573DB00C676A8 /* Company.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3171590823D573DB00C676A8 /* Company.swift */; };
-		3171590D23D573DB00C676A8 /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3171590923D573DB00C676A8 /* Address.swift */; };
-		3171590E23D573DB00C676A8 /* Geo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3171590A23D573DB00C676A8 /* Geo.swift */; };
-		3171590F23D573DB00C676A8 /* RootClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3171590B23D573DB00C676A8 /* RootClass.swift */; };
+		3153DF0523D6B7FB0056BD8C /* RootClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3153DF0123D6B7FA0056BD8C /* RootClass.swift */; };
+		3153DF0623D6B7FB0056BD8C /* Geo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3153DF0223D6B7FA0056BD8C /* Geo.swift */; };
+		3153DF0723D6B7FB0056BD8C /* Company.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3153DF0323D6B7FA0056BD8C /* Company.swift */; };
+		3153DF0823D6B7FB0056BD8C /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3153DF0423D6B7FB0056BD8C /* Address.swift */; };
 		3171591123D5759E00C676A8 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3171591023D5759E00C676A8 /* DataManager.swift */; };
 		318B85CB23D556D7008CAF86 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318B85CA23D556D7008CAF86 /* AppDelegate.swift */; };
 		318B85CD23D556D7008CAF86 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318B85CC23D556D7008CAF86 /* SceneDelegate.swift */; };
@@ -45,10 +45,10 @@
 
 /* Begin PBXFileReference section */
 		23FE6E665774FC693FBA7FC6 /* Pods-MVCandAlamofire-MVCandAlamofireUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVCandAlamofire-MVCandAlamofireUITests.debug.xcconfig"; path = "Target Support Files/Pods-MVCandAlamofire-MVCandAlamofireUITests/Pods-MVCandAlamofire-MVCandAlamofireUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		3171590823D573DB00C676A8 /* Company.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Company.swift; path = "../../../../Downloads/Source_file_JsonCafe (1)/Company.swift"; sourceTree = "<group>"; };
-		3171590923D573DB00C676A8 /* Address.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Address.swift; path = "../../../../Downloads/Source_file_JsonCafe (1)/Address.swift"; sourceTree = "<group>"; };
-		3171590A23D573DB00C676A8 /* Geo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Geo.swift; path = "../../../../Downloads/Source_file_JsonCafe (1)/Geo.swift"; sourceTree = "<group>"; };
-		3171590B23D573DB00C676A8 /* RootClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RootClass.swift; path = "../../../../Downloads/Source_file_JsonCafe (1)/RootClass.swift"; sourceTree = "<group>"; };
+		3153DF0123D6B7FA0056BD8C /* RootClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RootClass.swift; path = ../../../../.Trash/Source_file_JsonCafe/RootClass.swift; sourceTree = "<group>"; };
+		3153DF0223D6B7FA0056BD8C /* Geo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Geo.swift; path = ../../../../.Trash/Source_file_JsonCafe/Geo.swift; sourceTree = "<group>"; };
+		3153DF0323D6B7FA0056BD8C /* Company.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Company.swift; path = ../../../../.Trash/Source_file_JsonCafe/Company.swift; sourceTree = "<group>"; };
+		3153DF0423D6B7FB0056BD8C /* Address.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Address.swift; path = ../../../../.Trash/Source_file_JsonCafe/Address.swift; sourceTree = "<group>"; };
 		3171591023D5759E00C676A8 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		318B85C723D556D6008CAF86 /* MVCandAlamofire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVCandAlamofire.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		318B85CA23D556D7008CAF86 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -116,13 +116,21 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		3153DF0923D6B83B0056BD8C /* plists */ = {
+			isa = PBXGroup;
+			children = (
+				318B85DB23D556E6008CAF86 /* Info.plist */,
+			);
+			path = plists;
+			sourceTree = "<group>";
+		};
 		3171590623D5690000C676A8 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				3171590923D573DB00C676A8 /* Address.swift */,
-				3171590823D573DB00C676A8 /* Company.swift */,
-				3171590A23D573DB00C676A8 /* Geo.swift */,
-				3171590B23D573DB00C676A8 /* RootClass.swift */,
+				3153DF0423D6B7FB0056BD8C /* Address.swift */,
+				3153DF0323D6B7FA0056BD8C /* Company.swift */,
+				3153DF0223D6B7FA0056BD8C /* Geo.swift */,
+				3153DF0123D6B7FA0056BD8C /* RootClass.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -161,14 +169,13 @@
 		318B85C923D556D6008CAF86 /* MVCandAlamofire */ = {
 			isa = PBXGroup;
 			children = (
+				3153DF0923D6B83B0056BD8C /* plists */,
 				3171590723D5695A00C676A8 /* Controller */,
 				3171590623D5690000C676A8 /* Model */,
 				318B85FE23D55746008CAF86 /* view */,
 				318B85CA23D556D7008CAF86 /* AppDelegate.swift */,
 				318B85CC23D556D7008CAF86 /* SceneDelegate.swift */,
 				318B85D623D556E6008CAF86 /* Assets.xcassets */,
-				318B85D823D556E6008CAF86 /* LaunchScreen.storyboard */,
-				318B85DB23D556E6008CAF86 /* Info.plist */,
 				318B85D323D556D7008CAF86 /* MVCandAlamofire.xcdatamodeld */,
 			);
 			path = MVCandAlamofire;
@@ -195,6 +202,7 @@
 		318B85FE23D55746008CAF86 /* view */ = {
 			isa = PBXGroup;
 			children = (
+				318B85D823D556E6008CAF86 /* LaunchScreen.storyboard */,
 				318B85D023D556D7008CAF86 /* Main.storyboard */,
 			);
 			name = view;
@@ -449,15 +457,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3153DF0523D6B7FB0056BD8C /* RootClass.swift in Sources */,
 				3171591123D5759E00C676A8 /* DataManager.swift in Sources */,
+				3153DF0823D6B7FB0056BD8C /* Address.swift in Sources */,
 				318B85CF23D556D7008CAF86 /* ViewController.swift in Sources */,
 				318B85D523D556D7008CAF86 /* MVCandAlamofire.xcdatamodeld in Sources */,
 				318B85CB23D556D7008CAF86 /* AppDelegate.swift in Sources */,
-				3171590F23D573DB00C676A8 /* RootClass.swift in Sources */,
 				318B85CD23D556D7008CAF86 /* SceneDelegate.swift in Sources */,
-				3171590C23D573DB00C676A8 /* Company.swift in Sources */,
-				3171590D23D573DB00C676A8 /* Address.swift in Sources */,
-				3171590E23D573DB00C676A8 /* Geo.swift in Sources */,
+				3153DF0623D6B7FB0056BD8C /* Geo.swift in Sources */,
+				3153DF0723D6B7FB0056BD8C /* Company.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
